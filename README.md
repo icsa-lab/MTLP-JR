@@ -39,13 +39,13 @@ python get_latency.py
 ##### To train and evaluate brp model
 
 ```python
-python brp_mtl.py --train_file train_path --val_file valid_path --te_file test_path --lstm True ¨C-brp True
+python brp_mtl.py --train_file train_path --val_file valid_path --te_file test_path --lstm True -brp True
 ```
 
 #### To train  and evaluate regression model
 
 ```python
-python brp_mtl.py --train_file train_path --val_file valid_path --te_file test_path --lstm True ¨C-brp False 
+python brp_mtl.py --train_file train_path --val_file valid_path --te_file test_path --lstm True -brp False 
 ```
 
 
